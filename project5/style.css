@@ -1,0 +1,91 @@
+body{
+
+    background: transparent url('../assets7/Path\ 15.png') 0% 0% no-repeat padding-box;
+    font-family: "heebo",sans-serif;
+   
+}
+
+form{
+    background: #1A1A1AD4 0% 0% no-repeat  padding-box;
+    width: 450px;;
+    height: 500px;
+    position: absolute;
+    top: 145px;
+    left: 1056px;
+    padding: 75px;
+    color: #fff;
+}
+form >h1{
+    font: normal normal 900 36px/53px Heebo;
+    letter-spacing: 0px;
+    margin-bottom: 21px;
+
+}
+form >p{
+    font: normal normal normal 20px/29px  Heebo;
+    width: 340px;
+    margin-bottom: 30px;
+
+    
+}
+form >div {
+     font:  normal normal bold 16px/24px heebo;
+
+}
+
+form >div > label{ 
+
+    display: block;
+} 
+form >div > input{
+    border: 1px solid #d31c75;
+    width:350px;
+    height: 50px;
+    margin-bottom: 8px;
+
+}
+form > button{
+     margin-top: 22px;
+     background: #D31C75 0% 0% no-repeat padding-box;
+     width: 166px;
+     height: 50px; 
+     border: none;
+     color: #fff;
+   
+
+}@media( max-width:1643px){
+    body{
+        padding: 50px;
+
+
+    }
+    form{
+        position: static;
+        width: 350px;
+    }
+}
+@media(max-width:577px){
+    body{
+        display: flex;
+        justify-content: center0;
+    }
+    form{
+        position: static;
+        width: 65%;
+
+       
+    }
+    form>p{
+        width:150px;
+
+    }
+    form >div > input{
+    border: 1px solid #d31c75;
+    width:60%;
+    height: 50px;
+    margin-bottom: 8px;
+    }
+
+}
+
+
